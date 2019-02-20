@@ -20,6 +20,7 @@ public class ProductServiceImpl implements ProductService {
 		product.setName("JX1 Power Drill");
 		product.setDescription("Powerful hand drill, made to perfection");
 		product.setPrice(129.99F);
+		add(product);
 	}
 	
 	@Override
